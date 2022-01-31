@@ -62,8 +62,8 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
+  /* background: none; */
+  border: 2px solid #FFF269;
   padding: 1rem;
   text-transform: uppercase;
 }
@@ -84,5 +84,17 @@ h3{
   font-size: 1.5em;
 }
 a{
- color:#FFF269
+ color:#FFF269;
+}
+button{
+  color:#FFF269;
+  background-color: #131313;
+  margin: 0px 0px 1.5em;
+}
+header,footer{
+  background-color: #131313;
+}
+.lis,li{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
